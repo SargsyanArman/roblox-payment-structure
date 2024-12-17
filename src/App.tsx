@@ -1,14 +1,14 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
-import RbxBuyField from './Components/RbxBuyField/RbxBuyField';
-import { RBXSELL_BUY } from './Constants/Styles/App';
+import RbxBuyMain from './Components/RbxBuyMain/RbxBuyMain';
+import { RBXSELL_BUY } from './Constants/Styles/RbxBuyMainStyles';
 
 const App: React.FC = () => {
   return (
-    <Box >
+    <Box sx={{ backgroundColor: '#151515', height: '100vh' }}>
       <Typography style={RBXSELL_BUY}> Покупайте робуксы <br /> выгодно! </Typography>
-      <RbxBuyField />
+      <RbxBuyMain />
     </Box>
   );
 };

@@ -6,7 +6,7 @@ const RBXSELL_BUY: CSSProperties = {
     paddingTop: '40px',
     textAlign: 'center',
     fontSize: '52px',
-    color: 'white'
+    color: 'white',
 }
 
 
@@ -14,17 +14,13 @@ const RBXSELL_BUY_MAIN: CSSProperties = {
     display: 'flex',
     flexDirection: 'column',
     gap: '10px',
-    backgroundColor: '#171717',
     border: '1px solid #1B1B1B',
     borderRadius: '20px',
+    backgroundColor: '#171717',
     marginBottom: '30px',
     padding: '33px 22px 26px',
 };
 
-const RBXSELL_BUY_FIELD: CSSProperties = {
-    padding: '15px',
-
-}
 const RBXSELL_BUY_FIELD_LABEL = {
     color: '#a8a8a8',
     backgroundColor: 'transparent'
@@ -75,7 +71,8 @@ const RBXSELL_BUY_FIELD_CURRENCY: CSSProperties = {
     transform: 'translateY(-50%)',
     color: '#fff',
     fontSize: '25px',
+    width: '25px',
     zIndex: 1
 }
 
-export { RBXSELL_BUY_MAIN, RBXSELL_BUY, RBXSELL_BUY_FIELD_LABEL, RBXSELL_BUY_FIELD_WRAPPER, RBXSELL_BUY_FIELD_CURRENCY, RBXSELL_BUY_FIELD, RBXSELL_BUY_FIELD_INPUT }
+export { RBXSELL_BUY_MAIN, RBXSELL_BUY, RBXSELL_BUY_FIELD_LABEL, RBXSELL_BUY_FIELD_WRAPPER, RBXSELL_BUY_FIELD_CURRENCY, RBXSELL_BUY_FIELD_INPUT }
